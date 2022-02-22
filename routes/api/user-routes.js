@@ -51,6 +51,7 @@ router.post('/', (req, res) => {
 // PUT /api/users/1 SPECIFIC POSTS
 router.put('/:id', (req, res) => {
     User.update(req.body, { 
+        individualHooks: true, // hashes password
         where: {
           id: req.params.id
         }
