@@ -81,7 +81,7 @@ router.get('/login', (req, res) => {
         const post = dbPostData.get({ plain: true });//serialize post data
 
 
-        res.render('single-post', { post });//send data to template
+        res.render('single-post', { post, loggedIn: req.session.loggedIn });//send data to template
       })
       .catch(err => {
         console.log(err);
