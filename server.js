@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(require('./controllers/'));
+app.use(require('./controller'));
 // turn on connection to db and server
 sequelize.sync({ force: false }).then(() => { // change force: false to true when making changes to Sequelize models
   app.listen(PORT, () => console.log('Now listening', `http://localhost:${PORT}`));
