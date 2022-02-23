@@ -10,6 +10,7 @@
     "sequelize": "^6.16.2"
   },
   "scripts": {
+    "test": "jest",
     "start": "node server.js"
   },
   "name": "tech-blog",
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/LynneceE/tech-blog/issues"
   },
-  "homepage": "https://github.com/LynneceE/tech-blog#readme"
+  "homepage": "https://github.com/LynneceE/tech-blog#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
