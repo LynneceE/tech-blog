@@ -1,0 +1,7 @@
+<ol class="post-list">
+    {{#each posts as |post|}}
+  <li>
+    {{> post-info post}} <!--partial that references post-info.handlebars-->
+  </li>
+  {{/each}}
+</ol> 
