@@ -65,6 +65,6 @@ localhost/ returns all the posts with comments
 
 clicking on comment(s) returns all comments for that post
 
-<img src="/images/comments(1).png>
+<img src="/images/comments(1).png">
 
 # Contact Me
