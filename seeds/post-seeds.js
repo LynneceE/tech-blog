@@ -38,17 +38,17 @@ const postdata = [
   },
   {
     title: 'How I Got Good at Code (as a trillionaire)',
-    post_url: 'http://ucla.edu/consequat/nulla.html',
+    post_url: 'http://technobabble/blogs',
     user_id: 8
   },
   {
     title: 'Are Web Dev Jobs in Danger?',
-    post_url: 'http://theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
+    post_url: 'http://technobabble/blogs',
     user_id: 4
   },
   {
     title: 'My Tech Journey',
-    post_url: 'https://reverbnation.com/ligula/sit.jpg',
+    post_url: 'https://technobabble/blogs',
     user_id: 9
   },
 ];
