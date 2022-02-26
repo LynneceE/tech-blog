@@ -12,8 +12,15 @@
         <header>
             <h1>Techno Babble</h1>
              <nav>
+                
+                 {{#if loggedIn}}
                  <button id="logout" class="btn-logout">Logout</button>
+                 {{else}}
+                <a href="/dashboard">dashboard</a>
                 <a href="/login">Login</a>
+                <a href="/homepage">Homepage</a>
+                {{/if}}
+               
             </nav>
         </header>
         <main>
