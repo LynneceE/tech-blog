@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(109, 101, 101);
+}
+
+/*header in main.handlebars*/
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(109, 101, 101);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+    text-decoration: none;
+  }
+
+/*post titles*/
+  .title {
+     background-color: rgb(0, 0, 0); 
+     color: rgb(109, 101, 101);
+  }
+
+  /*links*/
+  a {
+      text-decoration: none;
+      color: rgb(218, 206, 206);
+      font-size: 20px;
+  }
+
+  .meta a {
+      color: rgb(0, 0, 0);
+  }
+
+
+  button {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 247, 247);
+      border-radius: 5px;
+  }
+
+  .login-signup {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    padding-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 30%;
+  }
+
+  .login {
+    padding: 5%;
+    margin-right: 30%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    
+  }
+
+  .signup {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: white;
+    
+  }
+
+  .post {
+    margin-bottom: 2%;
+    line-height: 150%;
+    
+  }
+
+
+
+  .post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: rgb(218, 206, 206);
+  }
+
+
+  
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(109, 101, 101);
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 40%;
+  }
+  
